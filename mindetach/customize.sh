@@ -25,4 +25,4 @@ if [ $C = 1 ]; then
 	ui_print "- mindetach will only work after a reboot!"
 fi
 ui_print ""
-ui_print "  by j-hc (github.com/j-hc)"
+ui_print "  by smmahbubhossain (github.com/smmahbubhossain)"
