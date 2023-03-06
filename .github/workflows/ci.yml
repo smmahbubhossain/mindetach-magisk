@@ -18,6 +18,7 @@ jobs:
       - name: Upload module to release
         uses: svenstaro/upload-release-action@v2
         with:
+          repo_token: ${{ secrets.GH_TOKEN }}
           file: mindetach-${{ steps.build.outputs.VER }}.zip
           release_name: mindetach-${{ steps.build.outputs.VER }}
           tag: ${{ steps.build.outputs.VER }}
